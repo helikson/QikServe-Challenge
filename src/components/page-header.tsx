@@ -2,7 +2,6 @@ import { NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import useRestaurantStore from "@/store/RestaurantStore";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
-import { Button } from "./ui/button";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "./ui/dropdown-menu";
 
 const defaultMenuStyle = "block font-normal text-xl tracking-wide text-center w-full";
