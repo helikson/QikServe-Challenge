@@ -1,0 +1,12 @@
+{
+   "rewrites": [
+      {
+         "source": "/challenge/:path(.*)",
+         "destination": "https://cdn-dev.preoday.com/challenge/:path"
+      },
+      {
+         "source": "/(.*)",
+         "destination": "/"
+      }
+   ]
+}
